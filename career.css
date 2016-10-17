@@ -1,0 +1,19 @@
+@charset="utf-8";
+.active a{
+	background-color: black;
+}
+.career{
+	width:1280px;
+	height:468px;
+/*	background-color: red;*/
+	margin:58px auto;
+	text-indent: 16px;
+}
+.career hr{
+	width:98%;
+	margin-left: 18px;
+}
+.career p{
+	text-align: left;
+    margin-left: 28px;
+}

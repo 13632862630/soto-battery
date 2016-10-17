@@ -1,0 +1,48 @@
+@charset="utf-8";
+.active a{
+	background-color: black;
+}
+.aboutus1{
+	width:1280px;
+	height: 88px;
+	margin: 58px auto;
+/*	background-color: red;*/
+	text-align: center;
+}
+.RESPONSIBILITY{
+	width:1280px;
+	height: 158px;
+	margin: 78px auto;
+/*	background-color: red;*/
+	text-align: center;
+	line-height: 1.5;
+}
+.RESPONSIBILITY > h1{
+	text-align: left;
+	margin-left: 18px;
+}
+.RESPONSIBILITY > hr{
+	width:98%;
+	margin-left: 18px;
+}
+.RESPONSIBILITY > ul > li{
+	text-align: left;
+    margin-left: 28px;
+    line-height: 1.5;
+}
+.factory {
+    width:1280px;
+	height: 258px;
+	margin: 28px auto;
+/*	background-color: red;*/
+	text-align: center;
+}
+.factory > h1{
+	text-align: left;
+	margin-left: 18px;
+}
+
+.factory > hr{
+	width:98%;
+	margin-left: 18px;
+}

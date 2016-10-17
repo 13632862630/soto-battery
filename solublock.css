@@ -1,0 +1,38 @@
+@charset="utf-8";
+.solublock{
+	width:1280px;
+	height:588px;
+/*	background-color: gray;*/
+	margin:58px auto;
+	text-indent: 16px;
+}
+.solublock ul li{
+	text-indent: 28px;
+
+}
+.left{
+    width:728px;
+	height:368px;
+/*	background-color: blue;*/
+	float:left;
+/*	margin-left: 58px;*/
+}
+.left li{
+	text-indent: 28px;
+}
+.right{
+	width:548px;
+	height:368px;
+/*	background-color: green;*/
+	float:right;
+}
+.right img{
+	margin-top: 28px;
+}
+.left ul li a{
+	color:#272727;
+}
+.left ul li a:hover{
+	color:#272727;
+	font-weight: bold;
+}

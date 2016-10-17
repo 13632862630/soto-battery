@@ -1,0 +1,97 @@
+@charset "utf-8";
+.active a{
+	background-color: black;
+}
+.middle {
+	width:1280px;
+	height:268px;
+/*	background-color: red;*/
+	margin: 0 auto;
+}
+.middle > div > h1 {
+	font-size:16px;
+	font-weight:bold;
+	padding: 38px 0 0 8px;
+}
+.hr1 {
+	width:88%;
+    margin: 10px 68px 10px 6px;
+}
+.hr2 {
+	width:99%;
+	margin: 10px 200px 10px 6px;
+}
+.product{
+	width:786px;
+	height:268px;
+/*	background-color:green;*/
+	display: inline-block;
+}
+.product > figure{
+	display: inline-block;
+	margin: 0 28px;
+	width: 168px;
+}
+.f2{
+	margin: 0 28px 0 0;
+}
+.product > figure > figcaption > a{
+	color:#272727;
+}
+.product > figure > figcaption > a:hover{
+	font-weight: bold;
+}
+.request{
+	width:488px;
+	height:268px;
+/*	background-color:green;*/
+	display: inline-block;
+	vertical-align: top;
+}
+.request > ul > li > a{
+	color: 	#272727;
+	padding: 18px;
+	line-height: 2.5;
+
+}
+.request > ul > li > a:hover{
+	font-weight: bold;
+}
+.solution{
+    width:1280px;
+	height: 328px;
+/*	background-color: gray;*/
+	margin: 0 auto; 
+}
+.solution > figure{
+	float: left;
+	width: 168px;
+}
+.solution > p{
+	padding:0 0 0 18px;
+	text-indent: 16px;
+}
+.solution> section > h1 {
+	font-size:16px;
+	font-weight:bold;
+	padding: 0 0 0 8px;
+}
+.solution > figure > figcaption > a{
+	color:	#272727;
+}
+.solution > figure > figcaption > a:hover{
+	font-weight: bold;
+}
+#footer {
+	width:100%px;
+	height:68px;
+	background-color: #333;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer >p {
+	font-size: 15px;
+	line-height: 28px;
+	color: #ddd;
+/*	margin-top: 8px*/
+}
