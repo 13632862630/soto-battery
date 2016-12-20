@@ -3,17 +3,18 @@
 	background-color: black;
 }
 .contactus{
-	width:1280px;
+	width:978px;
 	height:628px;
 /*	background-color: red;*/
-	margin:58px auto;
-	text-indent: 16px;
+	margin:88px auto;
+/*	text-indent: 16px;*/
 }
 .contactus > ul > li{
 	margin: 0 0 0 18px;
 }
-.contactus > ul > h1{
-	margin: 0 0 16px 0;
+.contactus > ul > h2{
+	font-size: 18px;
+	margin: 16px 0 16px 0;
 }
 .contactus > ul > li a{
 	color:#272727;

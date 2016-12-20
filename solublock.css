@@ -1,17 +1,20 @@
 @charset="utf-8";
 .solublock{
-	width:1280px;
-	height:588px;
+	width:987px;
+	height:688px;
 /*	background-color: gray;*/
-	margin:58px auto;
+	margin:88px auto;
 	text-indent: 16px;
+}
+.solublock h2 {
+	font-size: 16px;
 }
 .solublock ul li{
 	text-indent: 28px;
 
 }
 .left{
-    width:728px;
+    width:518px;
 	height:368px;
 /*	background-color: blue;*/
 	float:left;
@@ -21,7 +24,7 @@
 	text-indent: 28px;
 }
 .right{
-	width:548px;
+	width:418px;
 	height:368px;
 /*	background-color: green;*/
 	float:right;

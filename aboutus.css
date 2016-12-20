@@ -2,47 +2,67 @@
 .active a{
 	background-color: black;
 }
-.aboutus1{
-	width:1280px;
+.about {
+	width: 100%;
+}
+.about1 {
+	height: 58px;
+/*	background-color: gray;*/
+}
+.about2 {
+	height: 168px;
+/*	background-color: gray;*/
+}
+.about3 {
+	height: 138px;
+/*	background-color: gray;*/
+}
+.about4 {
+	height: 298px;
+/*	background-color: gray;*/
+}
+.about5{
+	height: 588px;
+/*	background-color: gray;*/
+}
+.about6 {
 	height: 88px;
-	margin: 58px auto;
-/*	background-color: red;*/
-	text-align: center;
-}
-.RESPONSIBILITY{
-	width:1280px;
-	height: 158px;
-	margin: 78px auto;
-/*	background-color: red;*/
-	text-align: center;
-	line-height: 1.5;
-}
-.RESPONSIBILITY > h1{
-	text-align: left;
-	margin-left: 18px;
-}
-.RESPONSIBILITY > hr{
-	width:98%;
-	margin-left: 18px;
-}
-.RESPONSIBILITY > ul > li{
-	text-align: left;
-    margin-left: 28px;
-    line-height: 1.5;
-}
-.factory {
-    width:1280px;
-	height: 258px;
-	margin: 28px auto;
-/*	background-color: red;*/
-	text-align: center;
-}
-.factory > h1{
-	text-align: left;
-	margin-left: 18px;
-}
 
-.factory > hr{
-	width:98%;
-	margin-left: 18px;
+}
+.about section {
+	width: 978px;
+/*	background-color: red;*/
+	margin: 18px auto;
+}
+.about section img{
+	float:left;
+}
+.about section p {
+	width: 800px;
+	height: 128px;
+/*	background-color: red;*/
+	float: right;
+	margin-top: 0px;
+}
+.about section p strong{
+	font-weight: normal;
+	color: #000;
+}
+.about section p a{
+	color: #333;
+/*	font-weight: bold;*/
+	background-color: #DCDCDC;
+	border: 1px solid #DCDCDC;
+    border-radius: 3px;;
+}
+.about section p a:hover{
+	color: #DCDCDC;
+	font-weight: bold;
+	background-color: #000;
+	border: 1px solid #000;
+    border-radius: 3px;;
+}
+.about section p img{
+    margin-right:18px;
+    margin-top: 18px;
 }

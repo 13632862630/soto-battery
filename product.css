@@ -2,20 +2,25 @@
 .active a{
 	background-color: black;
 }
+#banner {
+	width:100%px;
+	height:255px;
+	background:url(image/Banner2.jpg) no-repeat center;
+	background-size: 100%;
+	min-width: 1263px;
+}
 .act a{
 	background-color: #9D9D9D;
+	border-radius: 3px;
 }
 .product{
-	width:1280px;
+	width:978px;
 	height:758px;
-/*	background-color: red;*/
-	margin:58px auto;
-	text-indent: 16px;
+	margin:88px auto;
 }
 .left{
-	width:318px;
+	width:198px;
 	height:758px;
-/*	background-color: red;*/
 	float:left;
 }
 .left ul li a{
@@ -23,7 +28,7 @@
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 1.8;
-	margin-left: 28px;
+	margin-left: 0px;
 }
 .left ul li a:hover{
 	background-color: #9D9D9D;
@@ -31,51 +36,49 @@
 	border-radius: 3px;
 }
 .right{
-	width:938px;
+	width:736px;
 	height:758px;
 	background-color: #F0F0F0;
 	float:right;
 	text-indent: 0;
-	text-align: center;
+	text-align: left;
 	position: relative;
 }
 .right li{
 	margin-top: 18px;
 }
 .right figure{
-	width:162px;
+	width:158px;
 	height:188px;
 	border: 1px solid #BEBEBE;
 	border-radius: 3px;
 	display: inline-block;
-    text-indent: 0;
+	text-align: center;
     background-color:#E0E0E0;
 }
 .right > figure > img{
 	margin:2px 0 0 0;
 }
-.right > figure > figcaption{
-/*	background-color: red;*/
-	line-height: 16px;
+.right > figure > a figcaption{
+	color:#333;
 }
-.right > figure > figcaption a{
-	color:black;
-}
-.right > figure > figcaption a:hover{
+.right > figure > a figcaption:hover{
 	font-weight: bold;
 }
 .right p a{
-/*	background-color: gray;*/
-	width:68px;
-	height:25px;
-	position: absolute;
-	right:68px;
-	border: 1px solid #E0E0E0;
-	border-radius: 6px;
 	color:black;
 	font-size: 16px;
+}
+.next{
+	position: absolute;
+	right: 48px;
+	background-color: #DCDCDC;
+	border: 1px solid #DCDCDC;
+    border-radius: 3px;;
 }
 .right p a:hover{
 	background-color: #9D9D9D;
 	font-weight: bold;
+    border: 1px solid #E0E0E0;
+	border-radius: 6px;
 }

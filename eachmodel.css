@@ -1,13 +1,20 @@
 @charset="utf-8";
 .product{
-	width:1280px;
+	width:978px;
 	height:518px;
-/*	background-color: red;*/
-	margin:58px auto;
-	text-indent: 16px;
+/*	background-color: blue;*/
+	margin:118px auto;
+/*	text-indent: 16px;*/
+}
+#banner {
+	width:100%px;
+	height:255px;
+	background:url(image/Banner2.jpg) no-repeat center;
+	background-size: 100%;
+	min-width: 1263px;
 }
 .left{
-	width:318px;
+	width:198px;
 	height:518px;
 /*	background-color: red;*/
 	float:left;
@@ -17,7 +24,7 @@
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 1.8;
-	margin-left: 28px;
+/*	margin-left: 28px;*/
 }
 .left ul li a:hover{
 	background-color: #9D9D9D;
@@ -25,7 +32,7 @@
 	border-radius: 3px;
 }
 .right{
-	width:938px;
+	width:736px;
 	height:518px;
 	background-color: #F0F0F0;
 	float:right;
@@ -37,8 +44,8 @@
 	margin-top: 18px;
 }*/
 .right figure{
-	width:390px;
-	height:390px;
+	width:290px;
+	height:290px;
 	border: 1px solid #BEBEBE;
 	border-radius: 3px;
 	display: inline-block;
@@ -46,6 +53,7 @@
     background-color:#E0E0E0;
     position: absolute;
     right: 0px;
+    top: 38px;
 }
 .right > figure > img{
 	margin-top: 1px
@@ -61,6 +69,12 @@
 }
 .right figcaption a{
 	color:#272727;
+}
+.right figcaption a:hover{
+	background-color: #222;
+	border:1px solid #222;
+	border-radius: 3px;
+	color: white;
 }
 /*.right > figure > figcaption{
 /*	background-color: red;*/
@@ -88,3 +102,15 @@
 	font-weight: bold;
 }
 */
+.quote {
+	background-color: #888;
+	border:1px solid #888;
+    border-radius: 3px;
+	font-size: 15px;
+}
+.quote:hover{
+background-color: #222;
+border:1px solid #222;
+border-radius: 3px;
+color: white;
+}
