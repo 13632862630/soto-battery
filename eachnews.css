@@ -1,0 +1,11 @@
+.news {
+	width: 978px;
+	height: 800px;
+	margin: 0 auto;
+/*	background-color: red;*/
+}
+h2 {
+	margin-top: 58px;
+	margin-bottom: 0px;
+	font-size: 18px;
+}

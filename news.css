@@ -57,4 +57,11 @@
 .right ul{
 	width: 736px;
 	height: 490px;
+	font-size: 15px;
+}
+.right ul a{
+	color:#333;
+}
+.right ul a:hover{
+	font-weight: bold;
 }
